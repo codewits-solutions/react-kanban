@@ -1,0 +1,21 @@
+.table {
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    .row {
+      display: flex;
+    }
+    .row > * {
+      border: 2px rgb(59, 59, 108) solid;
+      width: 100%;
+    }
+    .head {
+      background-color: rgba(56,210,210,255);
+    }
+    .body {
+      color: black;
+      background-color: white;
+    }
+  }

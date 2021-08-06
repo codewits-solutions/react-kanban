@@ -8,6 +8,7 @@ import List from "../List/List";
 import ListAdder from "../ListAdder/ListAdder";
 import Header from "../Header/Header";
 import BoardHeader from "../BoardHeader/BoardHeader";
+import Status from "../Status/Status";
 import "./Board.scss";
 
 class Board extends Component {
@@ -170,6 +171,7 @@ class Board extends Component {
             </DragDropContext>
           </div>
           <div className="board-underlay" />
+          <Status/>
         </div>
       </>
     );
